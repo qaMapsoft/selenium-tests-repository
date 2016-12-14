@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle_main.iml" group="gradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle_test.iml" group="gradle" />
       <module fileurl="file://$PROJECT_DIR$/selenium-tests-repository.iml" filepath="$PROJECT_DIR$/selenium-tests-repository.iml" />
     </modules>
   </component>

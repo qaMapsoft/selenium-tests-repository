@@ -1,5 +1,11 @@
 package com.company.tests.less2;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -8,19 +14,19 @@ import java.util.concurrent.TimeUnit;
 public class TestHello {
     private WebDriver driver;
 
-    @Before
+    @BeforeSuite
     public void setUp() {
         driver = new ChromeDriver();
+        driver.get("http://selenium2.ru");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @Test
     public void testHello() {
-        driver.get("http://selenium2.ru");
         driver.manage().window().maximize();
     }
 
-    @After
+    @AfterClass
     public void tearDown() throws Exception {
         driver.quit();
         driver = null;
