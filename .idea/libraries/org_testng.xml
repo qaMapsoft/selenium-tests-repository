@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="org.testng">
-    <CLASSES>
-      <root url="jar://C:/selenium/org.testng.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
