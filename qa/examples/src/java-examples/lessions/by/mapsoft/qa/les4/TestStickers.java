@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.WebElement;
 
 /**
- * Created by Alex on 20.12.2016.
+ * Created by on 20.12.2016.
  */
 public class TestStickers extends TestBase {
     WebElement product;

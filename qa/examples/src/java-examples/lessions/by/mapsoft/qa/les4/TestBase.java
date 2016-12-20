@@ -15,7 +15,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
 /**
- * Created by Alex on 20.12.2016.
+ * Created by on 20.12.2016.
  */
 public class TestBase {
     protected WebDriver driver;
