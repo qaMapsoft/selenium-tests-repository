@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 /**
  * Created by Alex on 20.12.2016.
  */
-public class TestMenu extends TestBase{
+public class TestMenu extends TestBase {
     @Test
     public void testMenu() {
         loginLitecart();

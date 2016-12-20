@@ -13,13 +13,14 @@ import java.util.List;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
+
 /**
  * Created by Alex on 20.12.2016.
  */
 public class TestBase {
     protected WebDriver driver;
     protected WebDriverWait wait;
-    protected int i,j,menuCount,submenuCount,productCount;
+    protected int i, j, menuCount, submenuCount, productCount;
 
     @BeforeSuite
     public void setUp() {
@@ -37,6 +38,7 @@ public class TestBase {
         driver.quit();
         driver = null;
     }
+
     protected void loginLitecart() {
         driver.get("http://localhost:7080/litecart/admin");
         driver.findElement(By.name("username")).sendKeys("admin");
