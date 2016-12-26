@@ -7,16 +7,18 @@ import org.openqa.selenium.WebElement;
 /**
  * Created by on 20.12.2016.
  */
-public class TestStickers extends TestBase {
+public class TestStickers extends TestBaseLes4 {
     WebElement product;
 
     @Test
     public void testComents() {
 
-        productCount = findProduct().size();
+        litecart();
+        products = findProducts();
+        productCount = products.size();
         i = 0;
         while (i < productCount) {
-            product = findProduct().get(i);
+            product = products.get(i);
             Assert.assertEquals(findStickers(product).size(), 1);
             i++;
         }

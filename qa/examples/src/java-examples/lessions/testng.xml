@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Litecart">
+    <test name="Litecart Admin Menu test" >
+        <classes>
+            <class name="by.mapsoft.qa.les4.TestMenu" >
+                <methods>
+                    <include name="testMenu"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

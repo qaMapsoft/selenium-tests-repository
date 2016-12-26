@@ -29,7 +29,7 @@ public class TestLogin {
 
     @Test
     public void testHello() {
-        driver.get("http://localhost:7080/litecart/admin");
+        driver.get("http://localhost:7080/goLitecart/admin");
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
