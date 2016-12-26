@@ -4,7 +4,7 @@ package by.mapsoft.qa.les5;
 import org.testng.annotations.Test;
 
 /**
- * Created by Alex on 25.12.2016.
+ * Created by Alex on 26.12.2016.
  */
 public class TestProduct extends TestBase{
 

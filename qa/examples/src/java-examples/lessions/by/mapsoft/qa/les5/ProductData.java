@@ -2,7 +2,9 @@ package by.mapsoft.qa.les5;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
+/**
+ * Created by Alex on 26.12.2016.
+ */
 public class ProductData extends TestBase{
     public String name, price, priceSale;
     public String priceFontSize, priceFontText, priceFontColor;
