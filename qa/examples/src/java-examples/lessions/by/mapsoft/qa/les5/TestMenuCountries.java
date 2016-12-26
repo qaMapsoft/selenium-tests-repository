@@ -8,7 +8,9 @@ import org.openqa.selenium.WebElement;
 //import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
+/**
+ * Created by Alex on 25.12.2016.
+ */
 public class TestMenuCountries extends TestBase {
 	private ArrayList<String> countriesSort,countries;
 	private ArrayList<String> zonesSort,zones;

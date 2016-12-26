@@ -12,7 +12,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import by.mapsoft.qa.les5.ProductData;
-
+/**
+ * Created by Alex on 25.12.2016.
+ */
 public class TestBase {
 
 
