@@ -77,44 +77,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestBase.java">
+      <file leaf-file-name="TestBaseAll.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestBaseAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMenuCountries.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestMenuCountries.java">
+      <file leaf-file-name="TestAddNewProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestProduct.java">
+      <file leaf-file-name="TestAddNewUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="272">
+              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/ProductData.java">
+      <file leaf-file-name="UserData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="55" column="65" lean-forward="true" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -420,6 +428,13 @@
         <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestBase.java" />
         <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestProduct.java" />
         <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/ProductData.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/ProductData.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewUser.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewProduct.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/ProductPage.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestBaseAll.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserPage.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserData.java" />
       </list>
     </option>
   </component>
@@ -445,9 +460,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -526,7 +538,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="les5" />
+              <option name="myItemId" value="les6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -553,45 +565,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="qa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="les4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lessions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="les2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -606,61 +587,7 @@
       <recent name="C:\tools\GitHub\qa\examples\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestProduct.testProducts">
-    <configuration default="false" name="C:/tools/GitHub/selenium-tests-repository/qa/examples/src/java-examples/lessions/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java-examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/examples/src/java-examples/lessions/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestMenuCountries" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java-examples" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.mapsoft.qa.les5" />
-      <option name="MAIN_CLASS_NAME" value="by.mapsoft.qa.les5.TestMenuCountries" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestAddNewUser.testAddProducts">
     <configuration default="false" name="TestMenuCountries.testZones" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-examples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -723,6 +650,60 @@
       <option name="PACKAGE_NAME" value="by.mapsoft.qa.les5" />
       <option name="MAIN_CLASS_NAME" value="by.mapsoft.qa.les5.TestProduct" />
       <option name="METHOD_NAME" value="testProducts" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestAddNewProduct.testAddProducts" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="by.mapsoft.qa.les6" />
+      <option name="MAIN_CLASS_NAME" value="by.mapsoft.qa.les6.TestAddNewProduct" />
+      <option name="METHOD_NAME" value="testAddProducts" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestAddNewUser.testAddProducts" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-examples" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="by.mapsoft.qa.les6" />
+      <option name="MAIN_CLASS_NAME" value="by.mapsoft.qa.les6.TestAddNewUser" />
+      <option name="METHOD_NAME" value="testAddProducts" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -885,19 +866,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/tools/GitHub/selenium-tests-repository/qa/examples/src/java-examples/lessions/testng.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestMenuCountries" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestMenuCountries.testZones" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestMenuCountries.testCountries" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestProduct.testProducts" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.TestMenuCountries.testZones" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.TestMenuCountries.testCountries" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestProduct.testProducts" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestAddNewProduct.testAddProducts" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestAddNewUser.testAddProducts" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestProduct.testProducts" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestMenuCountries.testZones" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestMenuCountries.testCountries" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestMenuCountries" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/tools/GitHub/selenium-tests-repository/qa/examples/src/java-examples/lessions/testng.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestAddNewUser.testAddProducts" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestAddNewProduct.testAddProducts" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestProduct.testProducts" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestMenuCountries.testZones" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.TestMenuCountries.testCountries" />
       </list>
     </recent_temporary>
   </component>
@@ -915,61 +896,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMenuCountries_testCountries - 2016.12.26 at 21h 14m 08s.xml">
-      <configuration name="TestMenuCountries.testCountries" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 07m 44s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMenuCountries_testCountries - 2016.12.26 at 21h 15m 10s.xml">
-      <configuration name="TestMenuCountries.testCountries" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 10m 31s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMenuCountries_testZones - 2016.12.26 at 21h 15m 45s.xml">
-      <configuration name="TestMenuCountries.testZones" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 12m 22s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestProduct_testProducts - 2016.12.25 at 22h 00m 14s.xml">
-      <configuration name="TestProduct.testProducts" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 20m 57s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestProduct_testProducts - 2016.12.25 at 22h 02m 08s.xml">
-      <configuration name="TestProduct.testProducts" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 21m 57s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestProduct_testProducts - 2016.12.26 at 21h 10m 29s.xml">
-      <configuration name="TestProduct.testProducts" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 23m 59s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestProduct_testProducts - 2016.12.26 at 21h 10m 54s.xml">
-      <configuration name="TestProduct.testProducts" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 25m 28s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestProduct_testProducts - 2016.12.26 at 21h 11m 35s.xml">
-      <configuration name="TestProduct.testProducts" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 28m 45s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestProduct_testProducts - 2016.12.26 at 21h 18m 44s.xml">
-      <configuration name="TestProduct.testProducts" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 30m 27s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestProduct_testProducts - 2016.12.26 at 21h 24m 54s.xml">
-      <configuration name="TestProduct.testProducts" configurationId="TestNG" />
+    <history-entry file="TestAddNewUser_testAddProducts - 2016.12.28 at 20h 31m 23s.xml">
+      <configuration name="TestAddNewUser.testAddProducts" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24179944" sideWeight="0.49166667" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20712277" sideWeight="0.51875" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20712277" sideWeight="0.48125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3955014" sideWeight="0.51666665" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34489223" sideWeight="0.4875" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24179944" sideWeight="0.49166667" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3955014" sideWeight="0.48333332" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34489223" sideWeight="0.4875" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -982,6 +963,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestMenuCountries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/ProductData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
@@ -1011,7 +1018,7 @@
         <state relative-caret-position="442">
           <caret line="27" column="81" lean-forward="false" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1045,7 +1052,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1055,7 +1062,7 @@
         <state relative-caret-position="153">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1089,7 +1096,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1149,7 +1156,7 @@
         <state relative-caret-position="289">
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1193,7 +1200,7 @@
         <state relative-caret-position="850">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1271,46 +1278,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les4/TestBaseLes4.java">
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestMenuCountries.java">
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/ProductData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestProduct.java">
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/ProductData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/ProductPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="578">
+          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestMenuCountries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="82" column="50" lean-forward="true" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les4/TestBaseLes4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="83" column="24" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="88" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestBaseAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="55" column="65" lean-forward="true" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
           <folding />
         </state>
       </provider>
