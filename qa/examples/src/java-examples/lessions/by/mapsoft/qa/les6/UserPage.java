@@ -1,10 +1,12 @@
 package by.mapsoft.qa.les6;
 
-import org.junit.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
+/**
+ * Created by Alex on 28.12.2016.
+ */
 
 public class UserPage extends TestBaseAll{
 

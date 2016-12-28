@@ -77,44 +77,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBaseAll.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestBaseAll.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestBaseAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#1365#1366#0" expanded="true" />
-                <element signature="e#1441#1442#0" expanded="true" />
+                <element signature="e#1366#1367#0" expanded="true" />
+                <element signature="e#1442#1443#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAddNewProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/ProductPage.java">
+      <file leaf-file-name="TestAddNewUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/ProductData.java">
+      <file leaf-file-name="UserData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="85">
+              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -421,13 +421,13 @@
         <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestBase.java" />
         <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/TestProduct.java" />
         <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les5/ProductData.java" />
-        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewUser.java" />
-        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserPage.java" />
-        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserData.java" />
         <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewProduct.java" />
-        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestBaseAll.java" />
         <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/ProductPage.java" />
         <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/ProductData.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserPage.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserData.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewUser.java" />
+        <option value="$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestBaseAll.java" />
       </list>
     </option>
   </component>
@@ -1305,30 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="55" column="65" lean-forward="false" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/ProductData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1355,12 +1331,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestBaseAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/TestAddNewUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/src/java-examples/lessions/by/mapsoft/qa/les6/UserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

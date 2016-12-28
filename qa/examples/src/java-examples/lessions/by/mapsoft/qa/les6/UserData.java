@@ -1,7 +1,9 @@
 package by.mapsoft.qa.les6;
 
 import java.util.Random;
-
+/**
+ * Created by Alex on 28.12.2016.
+ */
 public class UserData {
 	Random r = new Random();
 	String e1,e2,e3;

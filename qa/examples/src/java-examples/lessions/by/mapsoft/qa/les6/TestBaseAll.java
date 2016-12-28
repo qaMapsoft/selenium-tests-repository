@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 /**
- * Created by Alex on 28.12.2016.
+ *  Created by Alex on 28.12.2016.
  */
 public class TestBaseAll {
 
