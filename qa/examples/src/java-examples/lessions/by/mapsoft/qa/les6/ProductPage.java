@@ -5,7 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-
+/**
+ * Created by Alex on 28.12.2016.
+ */
 public class ProductPage extends TestBaseAll{
 
 	private WebDriver driver;

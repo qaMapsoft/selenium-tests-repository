@@ -1,5 +1,7 @@
 package by.mapsoft.qa.les6;
-
+/**
+ * Created by Alex on 28.12.2016.
+ */
 public class ProductData {
 	String name,code,quantity,manufacturer,short_description,description,purchase_price,currency,price;
 
