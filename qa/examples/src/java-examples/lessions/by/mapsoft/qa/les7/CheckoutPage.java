@@ -10,6 +10,7 @@ import java.util.List;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElement;
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
 /**
  * Created by Alex on 04.01.2017.
@@ -55,7 +56,7 @@ public class CheckoutPage {
 	public void deleteProductsCart() {
 
 		while(isProductCartPresent()){
-			 waitAndClickRemote();
+			 waitAndClickRemoteButton();
 			 waitProducts();
 		}
 	}
@@ -88,7 +89,7 @@ public class CheckoutPage {
 
 	}
 
-	protected void waitAndClickRemote() {
+/*	protected void waitAndClickRemote() {
 
 			WebDriverWait wait = new WebDriverWait(DriverBase.getDriver(), 10);
 			wait.until((ExpectedCondition<Boolean>) webDriver -> {
@@ -101,20 +102,25 @@ public class CheckoutPage {
 				}
 				return true;
 			});
-	}
-	protected void waitProducts() {
+	}*/
+	protected void waitAndClickRemoteButton() {
 
+		WebDriverWait wait = new WebDriverWait(DriverBase.getDriver(), 10);
+		try {
+			wait.until(visibilityOf(driver.findElement(By.xpath(".//button[@name='remove_cart_item']"))));
+			driver.findElement(By.xpath(".//button[@name='remove_cart_item']")).click();
+			}catch (StaleElementReferenceException e) {
+					waitAndClickRemoteButton();
+			}catch (NoSuchElementException e) {}
+	}
+
+	protected void waitProducts() {
+		try {
 			WebDriverWait wait = new WebDriverWait(DriverBase.getDriver(), 10);
-			wait.until((ExpectedCondition<Boolean>) webDriver -> {
-				try {
-					driver.findElement(By.xpath(".//table/tbody/tr/td[@class='item']"));
-				}catch (NoSuchElementException e) {
-						return true;
-				}catch (StaleElementReferenceException e) {
-						return false;
-				}
-				return true;
-			});
+			wait.until(visibilityOf(driver.findElement(By.xpath(".//table/tbody/tr/td[@class='item']"))));
+		}catch (StaleElementReferenceException e) {
+			waitProducts();
+		}catch (NoSuchElementException e) {}
 	}
 
 	protected void selectOptions(){
