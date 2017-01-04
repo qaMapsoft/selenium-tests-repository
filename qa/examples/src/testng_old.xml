@@ -1,0 +1,68 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Litecart" parallel="tests" thread-count="5">
+    <test name="Litecart TestMenu" >
+        <classes>
+            <class name="by.mapsoft.qa.les4.TestMenu" >
+                <methods>
+                    <include name="testMenu"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name="Litecart TestStickers" >
+        <classes>
+            <class name="by.mapsoft.qa.les4.TestStickers" >
+                <methods>
+                    <include name="testComents"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name="Litecart TestMenuCountries" >
+        <classes>
+            <class name="by.mapsoft.qa.les5.TestMenuCountries" >
+                <methods>
+                    <include name="testCountries"/>
+                </methods>
+                <methods>
+                    <include name="testZones"/>
+                </methods>
+
+            </class>
+
+        </classes>
+    </test>
+    <test name="Litecart TestProduct" >
+        <classes>
+            <class name="by.mapsoft.qa.les5.TestProduct" >
+                <methods>
+                    <include name="testProducts"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name="Litecart TestAddNewUser" >
+        <classes>
+            <class name="by.mapsoft.qa.les6.TestAddNewUser" >
+                <methods>
+                    <include name="testAddProducts"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name="Litecart TestAddNewProduct" >
+        <classes>
+            <class name="by.mapsoft.qa.les6.TestAddNewProduct" >
+                <methods>
+                    <include name="testAddProducts"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

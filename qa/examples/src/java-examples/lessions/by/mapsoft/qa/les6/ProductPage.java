@@ -8,7 +8,7 @@ import org.testng.Assert;
 /**
  * Created by Alex on 28.12.2016.
  */
-public class ProductPage extends TestBaseAll{
+public class ProductPage extends BasePage {
 
 	private WebDriver driver;
 	private ProductData testProduct;

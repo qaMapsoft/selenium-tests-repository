@@ -1,13 +1,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Litecart">
-    <test name="Litecart Admin Menu test" >
+<suite name="Litecart" parallel="tests" thread-count="2">
+    <test name="Litecart - Test Add New User" verbose="1" parallel="true">
+        <parameter name="browserName" value="Chrome" />
+
         <classes>
-            <class name="by.mapsoft.qa.les4.TestMenu" >
-                <methods>
-                    <include name="testMenu"/>
-                </methods>
+            <class name="by.mapsoft.qa.les6.TestAddNewUser" >
             </class>
 
         </classes>
     </test>
+    <test name="Litecart - Test Add New Product" verbose="1" parallel="true">
+        <parameter name="browserName" value="Chrome" />
+        <classes>
+            <class name="by.mapsoft.qa.les6.TestAddNewProduct" >
+            </class>
+
+        </classes>
+    </test>
+
 </suite>

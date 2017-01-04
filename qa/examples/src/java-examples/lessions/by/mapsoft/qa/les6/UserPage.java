@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
  * Created by Alex on 28.12.2016.
  */
 
-public class UserPage extends TestBaseAll{
+public class UserPage extends BasePage{
 
 	private WebDriver driver;
 	private UserData testUser;
@@ -17,7 +17,7 @@ public class UserPage extends TestBaseAll{
 		this.driver = driver;
 	}
 
-	public UserPage createNewUser() {
+	public void createNewUser() {
 		testUser = new UserData();
 		setFirstName();
 		setLastName();
@@ -30,7 +30,6 @@ public class UserPage extends TestBaseAll{
 		setPassword();
 		setConfirmPassword();
 		createAccountButton();
-		return this;
 	}
 
 	private void createAccountButton() {
@@ -49,6 +48,8 @@ public class UserPage extends TestBaseAll{
 	}
 
 	public void checkAddNewUser() {
+		waitPageMain();
+		driver.findElement(By.xpath(".//*[@id='box-account']/h3"));
 		driver.findElement(By.xpath(".//a[.='Logout']")).click();
 		waitPageMain();
 		driver.findElement(By.xpath(".//input[@name='email']")).sendKeys(testUser.email);
