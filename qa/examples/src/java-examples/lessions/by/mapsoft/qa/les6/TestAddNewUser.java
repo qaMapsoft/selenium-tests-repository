@@ -5,16 +5,17 @@ import org.testng.annotations.Test;
 /**
  * Created by Alex on 28.12.2016.
  */
-public class TestAddNewUser extends TestBaseAll {
+public class TestAddNewUser extends DriverInst {
 	private UserPage newUserPage;
 
 	@Test
-	public void testAddProducts() {
+	public void testAddUsers() throws InterruptedException {
 
-		goLiteCart();
-		goAddNewAccount();
-		newUserPage = new UserPage(driver);
-		newUserPage.createNewUser().checkAddNewUser();
+		newUserPage = new UserPage(getDriver());
+		newUserPage.goLiteCart();
+		newUserPage.goAddNewAccount();
+		newUserPage.createNewUser();
+		newUserPage.checkAddNewUser();
 	}
 
 }
