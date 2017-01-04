@@ -12,7 +12,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElement;
 
 /**
- * Created by Alex on 28.12.2016.
+ * Created by Alex on 04.01.2017.
  */
 
 public class CheckoutPage {

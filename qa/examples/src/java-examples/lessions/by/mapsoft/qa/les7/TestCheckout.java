@@ -3,7 +3,7 @@ package by.mapsoft.qa.les7;
 import org.testng.annotations.Test;
 
 /**
- * Created by agembitsky on 04.01.2017.
+ *  Created by alex on 04.01.2017..
  */
 public class TestCheckout extends DriverBase {
     private CheckoutPage newCheckoutPage;

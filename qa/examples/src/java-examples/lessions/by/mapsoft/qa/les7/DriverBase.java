@@ -7,7 +7,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 /**
- *  Created by Alex on 28.12.2016.
+ *  Created by alex on 28.12.2016.
  */
 public class DriverBase {
 	private static InheritableThreadLocal<WebDriver> tlDriver = new InheritableThreadLocal<>();
