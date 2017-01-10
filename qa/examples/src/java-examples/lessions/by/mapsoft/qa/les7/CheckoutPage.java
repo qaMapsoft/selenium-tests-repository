@@ -91,7 +91,7 @@ public class CheckoutPage {
 
 /*	protected void waitAndClickRemote() {
 
-			WebDriverWait wait = new WebDriverWait(DriverBase.getDriver(), 10);
+			WebDriverWait wait = new WebDriverWait(DriverNewBase.getDriver(), 10);
 			wait.until((ExpectedCondition<Boolean>) webDriver -> {
 				try {
 					driver.findElement(By.xpath(".//button[@name='remove_cart_item']")).click();
