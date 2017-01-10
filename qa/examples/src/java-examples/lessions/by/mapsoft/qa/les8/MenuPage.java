@@ -3,7 +3,6 @@ package by.mapsoft.qa.les8;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -33,6 +32,17 @@ public class MenuPage {
 		rows.get(1).findElement(By.xpath(".//td[5]/a")).click();
 		waitPageEditCountry();
 	}
+
+	public void goExternalLink(int i) {
+		saveCurrentWindow();
+		clickExternalLink(i);
+		waitNewWindow();
+		goNewWindow();
+		waitPageSourceNewWindow();
+		closeNewWindow();
+		goEditCountryWindow();
+	}
+
 
 	public int getCountExternalLink() {
 		return driver.findElements(By.xpath(".//a[@target='_blank']/i[contains(@class,'external-link')]")).size();
@@ -94,7 +104,7 @@ public class MenuPage {
 		newWindow = wait.until(anyWindowOtherThan(existingWindows));
 	}
 
-	public void waitNewTitle() {
+	public void waitPageSourceNewWindow() {
 		WebDriverWait wait = new WebDriverWait(DriverNewBase.getDriver(), 10);
 		newWindow = wait.until(WebDriver::getPageSource);
 	}
@@ -106,7 +116,7 @@ public class MenuPage {
 			public String apply(WebDriver driver) {
 				Set<String> handles = driver.getWindowHandles();
 				handles.removeAll(oldWindows);
-				return handles.size() > 0 ? handles.iterator().next():null;
+				return handles.size() > 0 ? handles.iterator().next() :null;
 			}
 		};
 

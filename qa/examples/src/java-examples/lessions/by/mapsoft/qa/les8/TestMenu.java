@@ -15,13 +15,7 @@ public class TestMenu extends DriverNewBase {
         newMenuPage.goCountry();
 
         for(int i=0; i<newMenuPage.getCountExternalLink(); i++) {
-            newMenuPage.saveCurrentWindow();
-            newMenuPage.clickExternalLink(i);
-            newMenuPage.waitNewWindow();
-            newMenuPage.goNewWindow();
-            newMenuPage.waitNewTitle();
-            newMenuPage.closeNewWindow();
-            newMenuPage.goEditCountryWindow();
+            newMenuPage.goExternalLink(i);
         }
 
     }
