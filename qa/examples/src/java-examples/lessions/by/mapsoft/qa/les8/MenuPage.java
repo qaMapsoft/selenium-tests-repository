@@ -11,7 +11,7 @@ import java.util.Set;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 /**
- * Created by Alex on 04.01.2017.
+ * Created by Alex on 10.01.2017.
  */
 
 public class MenuPage {
@@ -106,7 +106,7 @@ public class MenuPage {
 
 	public void waitPageSourceNewWindow() {
 		WebDriverWait wait = new WebDriverWait(DriverNewBase.getDriver(), 10);
-		newWindow = wait.until(WebDriver::getPageSource);
+		newWindow = wait.until(refreshed(WebDriver::getPageSource));
 	}
 
 
@@ -139,50 +139,5 @@ public class MenuPage {
 		currentWindow = DriverNewBase.getDriver().getWindowHandle();
 		existingWindows = DriverNewBase.getDriver().getWindowHandles();
 	}
-
-/*	protected void waitAndClickRemote() {
-
-			WebDriverWait wait = new WebDriverWait(DriverNewBase.getDriver(), 10);
-			wait.until((ExpectedCondition<Boolean>) webDriver -> {
-				try {
-					driver.findElement(By.xpath(".//button[@name='remove_cart_item']")).click();
-				}catch (NoSuchElementException e) {
-						return true;
-				}catch (StaleElementReferenceException e) {
-						return false;
-				}
-				return true;
-			});
-	}
-	protected void waitAndClickRemoteButton() {
-
-		WebDriverWait wait = new WebDriverWait(DriverNewBase.getDriver(), 10);
-		try {
-			wait.until(visibilityOf(driver.findElement(By.xpath(".//button[@name='remove_cart_item']"))));
-			driver.findElement(By.xpath(".//button[@name='remove_cart_item']")).click();
-			}catch (StaleElementReferenceException e) {
-					waitAndClickRemoteButton();
-			}catch (NoSuchElementException e) {}
-	}
-
-	protected void waitProducts() {
-		try {
-			WebDriverWait wait = new WebDriverWait(DriverNewBase.getDriver(), 10);
-			wait.until(visibilityOf(driver.findElement(By.xpath(".//table/tbody/tr/td[@class='item']"))));
-		}catch (StaleElementReferenceException e) {
-			waitProducts();
-		}catch (NoSuchElementException e) {}
-	}
-
-	protected boolean isProductCartPresent() {
-		try {
-			driver.findElement(By.xpath(".//table/tbody/tr/td[@class='item']"));
-			return true;
-		} catch (NoSuchElementException ex) {
-			return false;
-		}
-	}
-*/
-
 
 }

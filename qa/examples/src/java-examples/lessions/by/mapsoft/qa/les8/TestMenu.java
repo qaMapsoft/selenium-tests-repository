@@ -3,7 +3,7 @@ package by.mapsoft.qa.les8;
 import org.testng.annotations.Test;
 
 /**
- *  Created by alex on 04.01.2017..
+ *  Created by alex on 10.01.2017..
  */
 public class TestMenu extends DriverNewBase {
     private MenuPage newMenuPage;
