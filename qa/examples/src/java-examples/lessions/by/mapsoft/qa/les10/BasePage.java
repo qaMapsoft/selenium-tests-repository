@@ -1,4 +1,4 @@
-package by.mapsoft.qa.les6;
+package by.mapsoft.qa.les10;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -11,7 +11,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
  */
 public class BasePage {
 
-    public void loginLitecart() {
+    protected void loginLitecart() {
         DriverInst.getDriver().manage().deleteAllCookies();
         DriverInst.getDriver().get("http://localhost:7080/litecart/admin");
         waitPageLogin();
@@ -41,9 +41,20 @@ public class BasePage {
         wait.until(presenceOfElementLocated(By.xpath("//h1")));
     }
 
+    protected void waitRows() {
+        WebDriverWait wait = new WebDriverWait(DriverInst.getDriver(), 10);
+        wait.until(presenceOfElementLocated(By.xpath(".//*[@id='content']/form/table/tbody/tr/td/a")));
+    }
+
     protected void waitTab(String tab) {
         WebDriverWait wait = new WebDriverWait(DriverInst.getDriver(), 10);
         wait.until(presenceOfElementLocated(By.xpath(".//form/div/ul/li/a [.='" + tab + "']")));
+    }
+
+    public void waitButtonCancel() {
+        WebDriverWait wait = new WebDriverWait(DriverInst.getDriver(), 10);
+        wait.until(presenceOfElementLocated(By.xpath(".//*[@id='content']/form/p/span/button[2]")));
+
     }
 
     protected void goLiteCart() {
@@ -52,7 +63,7 @@ public class BasePage {
         waitPageMain();
     }
 
-    public void goMenu(String menu) {
+    protected void goMenu(String menu) {
         DriverInst.getDriver().findElement(By.xpath(".//*[@id='app-']/a/span[contains(text(),'" + menu + "')]")).click();
         waitPageMenu();
     }
