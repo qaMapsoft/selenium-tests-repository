@@ -1,18 +1,14 @@
 package mapsoft.qa.base;
 
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-/**
- *  Created by alex on 28.12.2016.
- */
 public class ExtJSDriver {
 	private static InheritableThreadLocal<WebDriver> tlDriver = new InheritableThreadLocal<>();
-	private static ExtJSDriverFactory factory;
+	private static ExtJSBrowserFactory factory;
 
 	@Parameters({"browserName"})
 	@BeforeClass
@@ -27,7 +23,7 @@ public class ExtJSDriver {
 	}
 
 	public static void setDriver(String browserName) throws IllegalAccessException {
-		factory = new ExtJSDriverFactory();
+		factory = new ExtJSBrowserFactory();
 		if(browserName == null){
 			browserName = "Chrome";
 		}
@@ -37,5 +33,6 @@ public class ExtJSDriver {
 	public static WebDriver getDriver(){
 		return tlDriver.get();
 	}
+
 
 }
