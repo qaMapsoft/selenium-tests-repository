@@ -10,7 +10,7 @@ import org.testng.Assert;
 import java.util.List;
 
 /**
- * Created by Alex on 28.12.2016.
+ * Created by Alex on 17.01.2017.
  */
 public class ProductPage extends BasePage {
 

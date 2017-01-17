@@ -3,7 +3,7 @@ package by.mapsoft.qa.les10;
 import org.testng.annotations.Test;
 
 /**
- * Created by Alex on 28.12.2016.
+ * Created by Alex on 17.01.2017
  */
 public class TestProduct extends DriverInst {
 	private ProductPage newProductPage;
