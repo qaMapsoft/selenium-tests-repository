@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 /**
- * Created by alex on 29.12.2016.
+ * Created by alex on 20.01.2016.
  */
 public class DriverFactory {
     static WebDriver create(String type) throws IllegalAccessException {

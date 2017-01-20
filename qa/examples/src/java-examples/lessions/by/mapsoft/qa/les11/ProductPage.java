@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
 /**
- * Created by Alex on 04.01.2017.
+ * Created by Alex on 20.01.2017.
  */
 
 public class ProductPage extends Page{
